@@ -67,7 +67,7 @@
 					<span class="icon-bar"></span>
 				</a>
 				<div class="brand">
-					&copy; 2012 James Brown and Aaron Greenlee
+					&copy; 2012 noSchema Podcast
 				</div>
 				<div class="nav-collapse nav-footer">
 					<ul class="nav">
