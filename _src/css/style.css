@@ -9,12 +9,10 @@
 @media (min-width: 1200px) {
 	.bottom-bar {
 	    position: fixed;
-	    
 	}
 }
 
 .bottom-bar {
-	position: static;
 	border-radius: 0;
     bottom: 0;
     left: 0;
