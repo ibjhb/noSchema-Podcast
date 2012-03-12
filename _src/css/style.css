@@ -46,8 +46,12 @@
 	margin: 0 0 25px 0;
 }
 
-/** Episode Page **/
+/** Podcast list **/
+.podcast_list{
+	margin-bottom: 100px;
+}
 
+/** Episode Page **/
 #jukebox {
 	background-color:navy;
 	-moz-border-radius:10px;

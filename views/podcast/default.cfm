@@ -1,5 +1,5 @@
 <cfset rc.title = "Podcasts" />
-<div class="container">
+<div class="container podcast_list">
 	<div class="row">
 	    <div class="span12">
 	        <h2>Podcasts</h2>
