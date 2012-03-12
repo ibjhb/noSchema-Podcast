@@ -1,0 +1,113 @@
+/** Global **/
+.body{
+	min-height: 250px;
+}
+.navbar .nav{
+	float: right;
+}
+
+@media (min-width: 1200px) {
+	.bottom-bar {
+	    position: fixed;
+	    
+	}
+}
+
+.bottom-bar {
+	position: static;
+	border-radius: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	margin-bottom: 0px;
+}
+
+.bottom-bar .navbar-inner{
+	border-radius: 0px;
+}
+.bottom-bar .brand{
+	font-size: 12px;
+	padding: 16px 20px 12px;
+}
+
+.title {
+	margin: 0 0 15px 0;
+}
+
+/** Home Page **/
+.main .body{
+	min-height: 450px;
+}
+.socialLink{
+	margin: 10px 0 30px 0;
+}
+
+
+/**  Contact Page **/
+.contactInfo{
+	margin: 0 0 25px 0;
+}
+
+/** Episode Page **/
+
+#jukebox {
+	background-color:navy;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	color:#fff;
+	padding:10px;
+	font-family:helvetica, arial, verdana;
+	font-weight:bold;
+	width:300px;
+}
+#jukebox .loader {
+	border:1px solid #fff;
+	height:3px;
+	margin:10px 0px
+}
+#jukebox .load-progress {
+	width:0px;
+	background-color:#fff;
+	height:3px;
+}
+#jukebox .play-progress {
+	width:0px;
+	background-color:#9999cc;
+	height:3px;
+}
+
+#jukebox .controls {
+	text-align:center;
+}
+
+#jukebox .controls a {
+	display:inline-block;
+	width:33px;
+	height:33px;
+	margin:0px 14px;
+	overflow:hidden;
+	background-image:url('../img/audio-controls.png');
+	background-repeat:no-repeat;
+}
+
+#jukebox .controls a:hover {
+	background-color:#ff9900;
+}
+
+#jukebox .controls a span {
+	display:none;
+}
+
+#jukebox .controls a.prev {
+	background-position: -60px 0;
+}
+#jukebox .controls a.next {
+	background-position: -90px 0;
+}
+#jukebox .controls a.play {
+	background-position: top left;
+}
+#jukebox .controls a.pause {
+	background-position: -30px 0;
+}
+
